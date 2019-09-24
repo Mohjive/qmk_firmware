@@ -12,25 +12,25 @@
 #define DESCRIPTION     70-ish homebuilt keyboard
 
 /* key matrix size */
-#define MATRIX_ROWS 6
-#define MATRIX_COLS 14
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 10
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { D0, D1, D2, D3, D5, F4 }
-#define MATRIX_COL_PINS { F0, F1, E6, C7, C6, B7, D4, B1, B0, B5, B4, D7, D6, B3 }
+#define MATRIX_ROW_PINS { D6, D5, D1, D6, D5, D4, D3, D2 }
+#define MATRIX_COL_PINS { F0, F1, F4, F5, F6, F7, C6, C7, E6, B7 }
 #define UNUSED_PINS
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
 
 /* number of backlight levels */
-#define BACKLIGHT_PIN B6
+#define BACKLIGHT_PIN D7
 #define BACKLIGHT_LEVELS 5
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE 5
 
-#define RGB_DI_PIN E2
+#define RGB_DI_PIN B0
 #define RGBLIGHT_ANIMATIONS
 #define RGBLED_NUM 20
 #define RGBLIGHT_HUE_STEP 8
